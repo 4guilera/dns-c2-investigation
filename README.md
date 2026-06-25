@@ -1,6 +1,6 @@
-# DNS TXT Command-and-Control — Network Forensics Investigation
+# DNS TXT Command and Control — Network Forensics Investigation
 
-A self-contained DFIR walkthrough: take an unknown packet capture, work it like a SOC
+Here is an Incident Response walkthrough I've done. The idea is to take an unknown packet capture, work it like a SOC
 triage, prove a DNS-tunneled PowerShell C2 channel end to end, and ship behavioral
 detections that survive a domain rotation.
 
