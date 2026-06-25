@@ -33,4 +33,4 @@ fetch + SHA-256 in [`captures/README.md`](captures/README.md).
 Source: [sbousseaden/PCAP-ATTACK](https://github.com/sbousseaden/PCAP-ATTACK).
 
 ## Tooling
-`tshark` · `suricata` · `sigma-cli` — see methodology for exact invocations.
+`tshark` · `suricata` · `sigma-cli` 
