@@ -1,6 +1,6 @@
 # Decoded agent — annotated analysis
 
-> Defensive analysis artifact. The C2 domain is defanged (`ostrykebs[.]pl`) and this file
+> The C2 domain is defanged (`ostrykebs[.]pl`) and this file
 > documents the agent's **structure and behavior** rather than shipping a runnable implant.
 > Anyone reproducing can reassemble the original from the source capture (see
 > `../methodology/commands.md`).
