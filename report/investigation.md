@@ -1,6 +1,6 @@
 # Investigation: DNS TXT Command-and-Control on 192.168.100.121
 
-**Analyst:** 4guilera
+**Analyst:** Paul Aguilera
 **Date of analysis:** 2026-06-25
 **Evidence:** `dns_c2.pcap` (301 packets, 62.3s, captured 2020-06-06 06:36:39 UTC)
 **Classification:** Confirmed C2 — DNS tunneling (staged PowerShell agent)
@@ -14,8 +14,8 @@ command-and-control (C2) agent that uses **DNS TXT records as its transport**. O
 62-second window the host issued ~200 DNS queries to one second-level domain,
 `ostrykebs[.]pl`, in two distinct phases: it first **downloaded and assembled an agent**
 in 17 base64 chunks pulled from sequential TXT records, then **beaconed for tasking** on a
-session-scoped subdomain. No operator command was tasked during the capture, so no data
-exfiltration occurred in-window — but the agent was fully staged and actively beaconing.
+session-scoped subdomain. No operator command was tasked during the capture,but the agent was 
+fully staged.
 
 The activity maps to MITRE ATT&CK **T1071.004 (Application Layer Protocol: DNS)**,
 **T1132.001 (Standard Encoding)**, **T1059.001 (PowerShell)**, and **T1105 (Ingress Tool
@@ -24,7 +24,7 @@ for the rules shipped in `/detections`.
 
 ---
 
-## 2. How I got here (reasoning trail)
+## 2. How I got here
 
 I worked the capture the way I'd triage an unknown PCAP in a SOC, letting each observation
 decide the next question.
@@ -58,7 +58,7 @@ loops `l.$i.ns…`, extracts the payload between `@…@` delimiters, base64-deco
 concatenates them, and `iex`-executes the result. The `l.1`–`l.17` answers were the base64
 chunks themselves. Reassembling and decoding them yields the full agent (see §4).
 
-**Observation 5 — confirming intent, not assuming it.**
+**Observation 5 — confirming intent.**
 The decoded agent defines a results channel (`r.<hexdata>…`). I explicitly searched the
 capture for `r.*` queries and found **none**, and the `c.*` beacon responses were empty TXT.
 Conclusion stated precisely: the agent was staged and beaconing, but **un-tasked** during
@@ -67,7 +67,7 @@ here. (Both host MACs carry the `52:54:00` QEMU/KVM OUI, consistent with a lab c
 
 ---
 
-## 3. Attack chain
+## 3. Attack Chain
 
 | Phase | ATT&CK | Evidence in capture |
 |-------|--------|---------------------|
@@ -79,7 +79,7 @@ here. (Both host MACs carry the `52:54:00` QEMU/KVM OUI, consistent with a lab c
 
 ---
 
-## 4. The agent (decoded)
+## 4. The Decoded Agent
 
 The 17 staged chunks reassemble into a ~3 KB PowerShell DNS C2 agent. Full annotated
 breakdown — including the staging cradle, the hex-encode exfil routine, and the
@@ -96,7 +96,7 @@ Key design facts that drive detection:
 
 ---
 
-## 5. Impact assessment
+## 5. Impact Assessment
 
 - **Confirmed:** code execution capability on `192.168.100.121` via a live, beaconing C2
   channel that bypasses web proxies by riding DNS.
@@ -114,7 +114,7 @@ The capture tells me *what* is crossing the wire, but it's blind to the two thin
 actually set the severity of this incident: how the agent landed on the box, and whether it
 did anything before I started watching. Both of those live on the endpoint, and for a host
 like this I'd already have the telemetry — Sysmon (SwiftOnSecurity config) plus PowerShell
-logging forwarding into the SIEM — so this is a fast pivot, not a re-collection effort.
+logging forwarding into the SIEM.
 
 First stop is **PowerShell ScriptBlock logging (Event ID 4104)**. Because the agent
 assembles itself from the staged chunks and runs every task through `iex`, 4104 records the
