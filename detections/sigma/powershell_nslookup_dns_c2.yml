@@ -1,0 +1,39 @@
+title: PowerShell Spawning nslookup in a Loop (DNS TXT C2)
+id: 8f3b1c42-7a9e-4d21-bd6e-1c0a9f2e5b77
+status: experimental
+description: >
+  Detects the host-side footprint of DNS-tunneled C2 agents that use nslookup as their
+  transport. Such agents have PowerShell repeatedly shell out to nslookup -q=txt to poll a
+  command channel, which is rare in benign automation. Domain-independent: keys on the
+  process chain and the TXT query flag, not on any specific C2 domain.
+references:
+  - https://attack.mitre.org/techniques/T1071/004/
+  - https://github.com/sbousseaden/PCAP-ATTACK
+author: 4guilera
+date: 2026-06-25
+tags:
+  - attack.command-and-control
+  - attack.t1071.004
+  - attack.t1059.001
+logsource:
+  category: process_creation
+  product: windows
+detection:
+  selection_parent:
+    ParentImage|endswith: '\powershell.exe'
+    Image|endswith: '\nslookup.exe'
+  selection_txt:
+    CommandLine|contains:
+      - '-q=txt'
+      - '-querytype=txt'
+      - '-type=txt'
+  condition: selection_parent and selection_txt
+fields:
+  - ParentImage
+  - Image
+  - CommandLine
+  - User
+falsepositives:
+  - Legitimate admin scripts that query TXT records (e.g. SPF/DKIM checks). Tune by rate:
+    benign use is sporadic, C2 polling is sustained and periodic.
+level: high

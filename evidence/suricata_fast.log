@@ -1,0 +1,99 @@
+06/06/2020-06:36:47.786064  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63407 -> 8.8.8.8:53
+06/06/2020-06:36:48.031831  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63409 -> 192.168.100.2:53
+06/06/2020-06:36:48.031831  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63409 -> 192.168.100.2:53
+06/06/2020-06:36:48.198347  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63411 -> 192.168.100.2:53
+06/06/2020-06:36:48.198347  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63411 -> 192.168.100.2:53
+06/06/2020-06:36:48.323857  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63413 -> 192.168.100.2:53
+06/06/2020-06:36:48.323857  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63413 -> 192.168.100.2:53
+06/06/2020-06:36:48.455243  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63415 -> 192.168.100.2:53
+06/06/2020-06:36:48.455243  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63415 -> 192.168.100.2:53
+06/06/2020-06:36:48.653610  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63417 -> 192.168.100.2:53
+06/06/2020-06:36:48.653610  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63417 -> 192.168.100.2:53
+06/06/2020-06:36:48.851342  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63419 -> 192.168.100.2:53
+06/06/2020-06:36:48.851342  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63419 -> 192.168.100.2:53
+06/06/2020-06:36:49.058612  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63421 -> 192.168.100.2:53
+06/06/2020-06:36:49.058612  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63421 -> 192.168.100.2:53
+06/06/2020-06:36:49.226083  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63423 -> 192.168.100.2:53
+06/06/2020-06:36:49.226083  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63423 -> 192.168.100.2:53
+06/06/2020-06:36:49.377230  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63425 -> 192.168.100.2:53
+06/06/2020-06:36:49.377230  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63425 -> 192.168.100.2:53
+06/06/2020-06:36:49.513354  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63427 -> 192.168.100.2:53
+06/06/2020-06:36:49.513354  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63427 -> 192.168.100.2:53
+06/06/2020-06:36:49.649369  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63429 -> 192.168.100.2:53
+06/06/2020-06:36:49.649369  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63429 -> 192.168.100.2:53
+06/06/2020-06:36:49.782063  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63431 -> 192.168.100.2:53
+06/06/2020-06:36:49.782063  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63431 -> 192.168.100.2:53
+06/06/2020-06:36:49.904712  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63433 -> 192.168.100.2:53
+06/06/2020-06:36:49.904712  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63433 -> 192.168.100.2:53
+06/06/2020-06:36:50.037530  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63435 -> 192.168.100.2:53
+06/06/2020-06:36:50.037530  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63435 -> 192.168.100.2:53
+06/06/2020-06:36:50.177000  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63437 -> 192.168.100.2:53
+06/06/2020-06:36:50.177000  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63437 -> 192.168.100.2:53
+06/06/2020-06:36:50.313455  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63439 -> 192.168.100.2:53
+06/06/2020-06:36:50.313455  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63439 -> 192.168.100.2:53
+06/06/2020-06:36:50.440267  [**] [1:9000001:1] C2 DNS TXT staging cradle - sequential l.<n>.ns lookup [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63441 -> 192.168.100.2:53
+06/06/2020-06:36:50.440267  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63441 -> 192.168.100.2:53
+06/06/2020-06:36:50.583003  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63443 -> 192.168.100.2:53
+06/06/2020-06:36:50.583003  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63443 -> 192.168.100.2:53
+06/06/2020-06:36:52.799587  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63445 -> 192.168.100.2:53
+06/06/2020-06:36:52.799587  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63445 -> 192.168.100.2:53
+06/06/2020-06:36:53.943497  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63447 -> 192.168.100.2:53
+06/06/2020-06:36:53.943497  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63447 -> 192.168.100.2:53
+06/06/2020-06:36:56.130706  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63449 -> 192.168.100.2:53
+06/06/2020-06:36:56.130706  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63449 -> 192.168.100.2:53
+06/06/2020-06:36:57.339087  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63451 -> 192.168.100.2:53
+06/06/2020-06:36:57.339087  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63451 -> 192.168.100.2:53
+06/06/2020-06:36:59.510691  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63453 -> 192.168.100.2:53
+06/06/2020-06:36:59.510691  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63453 -> 192.168.100.2:53
+06/06/2020-06:37:00.676758  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63455 -> 192.168.100.2:53
+06/06/2020-06:37:00.676758  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63455 -> 192.168.100.2:53
+06/06/2020-06:37:02.842796  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63457 -> 192.168.100.2:53
+06/06/2020-06:37:02.842796  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63457 -> 192.168.100.2:53
+06/06/2020-06:37:04.032222  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63459 -> 192.168.100.2:53
+06/06/2020-06:37:04.032222  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63459 -> 192.168.100.2:53
+06/06/2020-06:37:06.397847  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63461 -> 192.168.100.2:53
+06/06/2020-06:37:06.397847  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63461 -> 192.168.100.2:53
+06/06/2020-06:37:07.553340  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63463 -> 192.168.100.2:53
+06/06/2020-06:37:07.553340  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63463 -> 192.168.100.2:53
+06/06/2020-06:37:08.759020  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63465 -> 192.168.100.2:53
+06/06/2020-06:37:08.759020  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63465 -> 192.168.100.2:53
+06/06/2020-06:37:10.877040  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63467 -> 192.168.100.2:53
+06/06/2020-06:37:10.877040  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63467 -> 192.168.100.2:53
+06/06/2020-06:37:12.114986  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63469 -> 192.168.100.2:53
+06/06/2020-06:37:12.114986  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63469 -> 192.168.100.2:53
+06/06/2020-06:37:13.379737  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63471 -> 192.168.100.2:53
+06/06/2020-06:37:13.379737  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63471 -> 192.168.100.2:53
+06/06/2020-06:37:15.567538  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63473 -> 192.168.100.2:53
+06/06/2020-06:37:15.567538  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63473 -> 192.168.100.2:53
+06/06/2020-06:37:16.757899  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63475 -> 192.168.100.2:53
+06/06/2020-06:37:16.757899  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63475 -> 192.168.100.2:53
+06/06/2020-06:37:17.938287  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63477 -> 192.168.100.2:53
+06/06/2020-06:37:17.938287  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63477 -> 192.168.100.2:53
+06/06/2020-06:37:19.086899  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63479 -> 192.168.100.2:53
+06/06/2020-06:37:19.086899  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63479 -> 192.168.100.2:53
+06/06/2020-06:37:21.434635  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63481 -> 192.168.100.2:53
+06/06/2020-06:37:21.434635  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63481 -> 192.168.100.2:53
+06/06/2020-06:37:23.637748  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63483 -> 192.168.100.2:53
+06/06/2020-06:37:23.637748  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63483 -> 192.168.100.2:53
+06/06/2020-06:37:25.754731  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63485 -> 192.168.100.2:53
+06/06/2020-06:37:25.754731  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63485 -> 192.168.100.2:53
+06/06/2020-06:37:27.897786  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63487 -> 192.168.100.2:53
+06/06/2020-06:37:27.897786  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63487 -> 192.168.100.2:53
+06/06/2020-06:37:29.028250  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63489 -> 192.168.100.2:53
+06/06/2020-06:37:29.028250  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63489 -> 192.168.100.2:53
+06/06/2020-06:37:31.199435  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63491 -> 192.168.100.2:53
+06/06/2020-06:37:31.199435  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63491 -> 192.168.100.2:53
+06/06/2020-06:37:32.365110  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63493 -> 192.168.100.2:53
+06/06/2020-06:37:32.365110  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63493 -> 192.168.100.2:53
+06/06/2020-06:37:34.546554  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63495 -> 192.168.100.2:53
+06/06/2020-06:37:34.546554  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63495 -> 192.168.100.2:53
+06/06/2020-06:37:35.713842  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63497 -> 192.168.100.2:53
+06/06/2020-06:37:35.713842  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63497 -> 192.168.100.2:53
+06/06/2020-06:37:36.866543  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63499 -> 192.168.100.2:53
+06/06/2020-06:37:36.866543  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63499 -> 192.168.100.2:53
+06/06/2020-06:37:38.963071  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63501 -> 192.168.100.2:53
+06/06/2020-06:37:38.963071  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63501 -> 192.168.100.2:53
+06/06/2020-06:37:41.091593  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63503 -> 192.168.100.2:53
+06/06/2020-06:37:41.091593  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63503 -> 192.168.100.2:53
+06/06/2020-06:37:42.244017  [**] [1:9000002:1] C2 DNS TXT command-channel beacon [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63505 -> 192.168.100.2:53
+06/06/2020-06:37:42.244017  [**] [1:9000003:1] C2 DNS lookup to known-bad domain ostrykebs.pl [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.100.121:63505 -> 192.168.100.2:53

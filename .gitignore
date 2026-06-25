@@ -1,0 +1,4 @@
+captures/*.pcap
+captures/*.pcapng
+zeek-logs/
+suricata-logs/eve.json

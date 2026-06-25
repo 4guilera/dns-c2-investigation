@@ -1,0 +1,6 @@
+# Behavioral: PowerShell-style DNS C2 staging cradle (l.<n>.ns.<domain> TXT walk)
+alert dns any any -> any any (msg:"C2 DNS TXT staging cradle - sequential l.<n>.ns lookup"; dns.query; content:".ns."; pcre:"/^l\.\d+\.ns\./"; sid:9000001; rev:1;)
+# Behavioral: command-channel beacon (c.<id>-<part>.<session>.ns.<domain>)
+alert dns any any -> any any (msg:"C2 DNS TXT command-channel beacon"; dns.query; pcre:"/^c\.\d+-\d+\.\d+\.ns\./"; sid:9000002; rev:1;)
+# Intel: known C2 second-level domain from this investigation
+alert dns any any -> any any (msg:"C2 DNS lookup to known-bad domain ostrykebs.pl"; dns.query; content:"ostrykebs.pl"; nocase; sid:9000003; rev:1;)
