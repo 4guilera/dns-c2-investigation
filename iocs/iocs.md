@@ -1,6 +1,6 @@
 # Indicators of Compromise
 
-> Network indicators defanged. Pivot on the **behavioral** patterns first — they survive a
+> Noticed the **behavioral** patterns first — they survive a
 > domain rotation; the domain/host indicators are point-in-time.
 
 ## Network
