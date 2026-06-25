@@ -1,4 +1,4 @@
-# Investigation: DNS TXT Command-and-Control on 192.168.100.121
+# Investigation: DNS TXT Command and Control on 192.168.100.121
 
 **Analyst:** Paul Aguilera
 **Date of analysis:** 2026-06-25
